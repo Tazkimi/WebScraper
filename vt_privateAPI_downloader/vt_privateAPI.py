@@ -34,7 +34,7 @@ from MysqlCtr.db_tool import DB_tool
 #import requests
 
 # API_KEY = '7558e9f326ffc97f46405da878ca4b011437f489787863afe29916bdb2d5f7da'
-API_KEY = 'd8393035cd72faa3ae1d61eb38848a3bcbfe9b5f1472cfa3588ac34e0d7776e0'
+API_KEY = 'd8393035cd72faa3ae1d61eb38848a3bcbfe9b5f1472cfa3588ac34e0dyyyy'
 INTELLIGENCE_SEARCH_URL = ('https://www.virustotal.com/vtapi/v2/file/search')
 INTELLIGENCE_DOWNLOAD_URL = ('https://www.virustotal.com/vtapi/v2/file/download?hash=%s&apikey=%s')
 
