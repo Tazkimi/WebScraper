@@ -1,0 +1,24 @@
+下载 语句：
+
+
+python vt_privateAPI_downloader.py -n 10 -f bit64 type:"peexe" tag:64bits  positives:25+ fs:2016-01-01T01:00:00+
+python vt_privateAPI_downloader.py -n 10 -f apk  tag:apk  positives:25+ fs:2016-03-01T01:00:00+
+python vt_privateAPI_downloader.py -n 10  -f anyun  engines:anyun type:"peexe" positives:5+ fs:2016-03-01T01:00:00+
+python2.6 vt_privateAPI_downloader.py -n 10  -f Congur  engines:Congur  type:"android" positives:25+ fs:2016-08-01T01:00:00+
+python vt_privateAPI_downloader.py -n 10 -f cveoffice  tag:cve-2018-8174  positives:5+ fs:2017-03-01T01:00:00+
+
+python vt_privateAPI_downloader.py -n 10  -f anyun name:"upcfg.db" positives:2+ fs:2015-03-01T01:00:00+
+python2.6 vt_privateAPI_downloader.py -n 800 -f dll type:"pedll" positives:20+ fs:2016-08-01T01:00:00+
+
+
+python2.6 vt_privateAPI_downloader.py -n 100 -f script type:text engines:JS positives:10+ fs:2016-08-01T01:00:00+ 
+
+
+python2.6 vt_privateAPI_downloader.py -n 1 -f conflicker type:peexe eset_nod32:Dorkbot positives:20+ fs:2008-05-01T01:00:00+
+
+
+
+python vt_privateAPI_downloader_no_check.py -n 1 -f Neshta type:peexe eset_nod32:Neshta positives:20+ fs:2008-05-01T01:00:00+
+
+
+python /home/ubuntu/workscript/vt_privateAPI_downloader.py -n 300 -f malmacros type:doc or type:docx or type:xls or type:xlsx or type:ppt or type:rtf tag:macros  positives:15+ size:20KB+ fs:2017-01-01T01:00:00+
